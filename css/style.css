@@ -68,7 +68,7 @@ a {
     color: #E5E7EB;
 }
 .hero-button {
-    font-size: 16px;
+    font-size: 20px;
     background-color: #3882F6;
     color: hsl(90, 17%, 98%);
     border: none;
@@ -81,17 +81,44 @@ a {
     background-color: #244f94;
 }
 .hero-image {
-    flex-grow: 1;
     flex-shrink: 0;
     width: 500px;
     max-width: 500px;
     margin-bottom: 150px;
 }
 .information {
-
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.information-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+.information-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 50px;
+    padding: 50px;
+}
+.information-card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    gap: 10px;
+}
+.information-image {
+    width: 200px;
+    border: none;
+    border-radius: 8px;
 }
 .quote {
-
+    background-color: #c1c3c7;
 }
 .sign-up{
 
