@@ -49,21 +49,43 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0px;
+    gap: 20px;
     padding: 20px;
-    height: 200px;
 }
 .hero-text {
-    flex: 1;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
 }
-
+.hero-text-main {
+    font-size: 48px;
+    font-weight: 900;
+}
+.hero-text-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero-button {
+    font-size: 16px;
+    background-color: #3882F6;
+    color: hsl(90, 17%, 98%);
+    border: none;
+    border-radius: 4px;
+}
+.hero-button:hover {
+    background-color: #2d66c3;
+}
+.hero-button:active {
+    background-color: #244f94;
+}
 .hero-image {
-    flex: 1;
-}
-.hero-image img {
-    max-width: 100%;
-    max-height: 200px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 500px;
+    max-width: 500px;
+    margin-bottom: 150px;
 }
 .information {
 
