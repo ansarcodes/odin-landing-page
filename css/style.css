@@ -119,9 +119,61 @@ a {
 }
 .quote {
     background-color: #c1c3c7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    gap: 10px;
+}
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+.quote-author {
+    font-size: 16px;
+    font-weight: 900;
+    align-self: flex-end;
 }
 .sign-up{
-
+    background-color: #E5E7EB;
+    color: #f9faf8;
+    padding: 100px;
+}
+.sign-up-form {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border: none;
+    border-radius: 10px;
+    gap: 10px;
+}
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.sign-up-form-title {
+    font-size: 20px;
+    font-weight: 900;
+}
+.sign-up-form-button {
+    border: solid #E5E7EB;
+    font-size: 20px;
+    background-color: #3882F6;
+    color: hsl(90, 17%, 98%);
+    border-radius: 4px;
+    padding: 5px;
+}
+.sign-up-form-button:hover {
+    border: solid #d0d0d0;
+    background-color: #1c6bea;
+}
+.sign-up-form-button:active {
+    border: solid #b2b1b1;
+    background-color: #065ae1;
 }
 .footer {
     height: 50px;
